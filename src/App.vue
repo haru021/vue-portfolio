@@ -1,11 +1,16 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/product">商品情報</router-link>
-    </nav>
-    <router-view>
-      
+    <header></header>
     </router-view>
 </div>
 </template>
+
+
+<script>
+import Header from '~/views/header';
+export default {
+  components: {
+    Header,
+  },
+};
+</script>
