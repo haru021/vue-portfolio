@@ -6,3 +6,9 @@
         </b-navbar-toggle>
         </header>
 </template>
+
+<script>
+export default {
+  name: 'header',
+}
+</script>
