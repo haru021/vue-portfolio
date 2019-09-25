@@ -5,8 +5,6 @@
         <i class="fas fa-bars"></i>
         </b-navbar-toggle>
         </header>
-<router-view/>
-</div>
 </template>
 
 
