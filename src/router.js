@@ -14,7 +14,6 @@ const router = new VueRouter({
     routes:[
         {path: '/', component: Home},
         {path: '/product', component: Product}
-        // {path: '/hoge', component: header}
     ]
 })
 
