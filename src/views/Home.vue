@@ -1,5 +1,11 @@
 <template>
-    <div class="home">
-        <h1><img src="../assets/top.png" alt="top"></h1>
+<div class="home">
+    <b-container>
+        <b-row>
+            <b-col cols="12">
+        <img src="../assets/top.png" alt="top" width="100%">
+        </b-col>
+        </b-row>
+    </b-container>
     </div>
 </template>
