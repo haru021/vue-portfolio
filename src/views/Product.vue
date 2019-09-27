@@ -13,6 +13,16 @@
         </b-card-text>
       </b-card>
         </b-card-group>
+        <b-card-group deck>
+            <b-card header="スキル" class="text-left">
+        <b-card-text>
+        <p>実務経験有：</p>
+        <p>HTML5,CSS3,フォトショップ(画像加工、レタッチ),LP制作のディレクション</p>
+        <p>実務経験無(学習段階)：</p>
+        <p>Vue.js,AdobeXD</p>
+        </b-card-text>
+      </b-card>
+        </b-card-group>
         </b-col>
         </b-row>
         </b-container>
