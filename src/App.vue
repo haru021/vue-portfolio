@@ -6,8 +6,14 @@
         <h1 class="bg-dark">Moe'sPorfolio</h1>
         <nav class="navbar navbar-dark bg-dark">
       <b-button v-b-modal.modal-1 class="navbar-toggler"><span class="navbar-toggler-icon"></span></b-button>
-  <b-modal id="modal-1" title="BootstrapVue">
-    <p class="my-4">Hello from modal!</p>
+  <b-modal id="modal-1" hide-footer="true">
+    <b-list-group>
+  <b-list-group-item><a href="#"></a></b-list-group-item>
+  <b-list-group-item><a href="#"></a></b-list-group-item>
+  <b-list-group-item><a href="#"></a></b-list-group-item>
+  <b-list-group-item><a href="#"></a></b-list-group-item>
+  <b-list-group-item><a href="#"></a></b-list-group-item>
+</b-list-group>
   </b-modal>
   </nav> 
   </b-col>
