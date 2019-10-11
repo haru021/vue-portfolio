@@ -2,7 +2,7 @@
     <b-container class="product">
         <b-row>
         <b-col cols="12">
-            <h1 class="text-center">自己紹介</h1>
+            <h1 class="text-left">自己紹介</h1>
         <b-card-group deck>
             <b-card header="基本情報" class="text-left">
         <b-card-text><h2>小林萌</h2>
