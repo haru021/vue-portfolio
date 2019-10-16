@@ -243,4 +243,7 @@
 		overflow-x: hidden;
 		word-wrap: break-word;
 	}
+	@media screen and (min-width:768px){
+aside.sidebar{ width: 40%;}
+}
 </style>

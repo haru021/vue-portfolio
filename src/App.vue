@@ -15,6 +15,9 @@
             </Drawer>
           </nav> 
     </header>
+    <footer class="w-100 cont">
+
+    </footer>
     <router-view />
   </div>
 </template>
