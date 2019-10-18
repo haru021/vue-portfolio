@@ -8,17 +8,27 @@
               <b-button class="navbar-toggler close-btn" @click="closeMenu"><span class="close-btn-icon"><font-awesome-icon icon="times" /></span></b-button>
               <ul>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">自己紹介</a></li>
+                <li><router-link to="/Profile">自己紹介</router-link></li>
                 <li><a href="#">こんな風に働きたい</a></li>
                 <li><a href="#">こんな風に働きたい</a></li>
               </ul>
             </Drawer>
           </nav> 
     </header>
-    <footer class="w-100 cont">
-
-    </footer>
     <router-view />
+    <footer class="w-100 bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex text-light">made with by Moe</div>
+          <div class="col d-flex justify-content-end">
+              <a href="#" class="icon-right"><font-awesome-icon icon="envelope" /></a>
+              <a href="#" class="icon-right"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
+              <a href="#" class="icon-right"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>  
+          </div><!--class="col" -->
+          </div><!--class="row" -->
+        </div>
+    </footer>
+    
   </div>
 </template>
 
@@ -86,6 +96,12 @@ ul{
     font-size: 22px;
     color: #333333;
   }
-
+.icon-right{
+  text-align:center;
+  padding-left: 5%;
+}
+.col{
+  font-size: 1rem;
+}
 </style>
 
