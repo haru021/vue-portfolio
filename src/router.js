@@ -3,7 +3,9 @@ import VueRouter from 'vue-router'
 //ルート用のコンポーネントを読み込む
 import Home from '@/views/Home.vue'
 import Profile from '@/views/Profile.vue'
-// import header from '@/views/header.vue'
+import Job from '@/views/Job.vue'
+import Strengths from '@/views/Strengths.vue'
+
 //Vuexと同様で最初にプラグインとして登録
 Vue.use(VueRouter)
 
@@ -13,7 +15,9 @@ const router = new VueRouter({
     //URLのパスと紐づくコンポーネントをマッピング
     routes:[
         {path: '/', component: Home},
-        {path: '/Profile', component: Profile}
+        {path: '/Profile', component: Profile},
+        {path: '/Job', component: Job},
+        {path: '/Strengths', component: Strengths}
     ]
 })
 

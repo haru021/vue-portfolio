@@ -60,3 +60,13 @@
         </b-row>
         </b-container>
 </template>
+
+
+<style>
+.product{
+    padding: 3% 0;
+}
+.card-deck{
+    padding: 3% 0;
+  }
+</style>
