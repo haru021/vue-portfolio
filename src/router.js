@@ -11,7 +11,7 @@ Vue.use(VueRouter)
 
 //VueRouterインスタンスを生成する
 const router = new VueRouter({
-    mode: 'history',
+    // mode: 'history',
     //URLのパスと紐づくコンポーネントをマッピング
     routes:[
         {path: '/', component: Home},

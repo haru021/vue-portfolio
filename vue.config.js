@@ -4,5 +4,8 @@ module.exports = {
         plugins: [
             // new HardSourceWebpackPlugin()
         ]
-    }
+    },
+    outputDir: 'docs',
+  assetsDir: './',
+  publicPath: './'
 }
