@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="w-100">
-          <h1 class="bg-dark"><router-link to="/" class="text-light">Moe'sPorfolio</router-link></h1>
+          <h1 class="bg-dark"><router-link to="/" class="text-light">Haru'sPorfolio</router-link></h1>
           <nav class="navbar navbar-dark bg-dark">
             <b-button class="navbar-toggler" @click="openMenu"><span class="navbar-toggler-icon"></span></b-button>
             <Drawer :direction="'left'" :exist="true" ref="LeftDrawer">
