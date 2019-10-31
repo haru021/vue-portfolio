@@ -26,7 +26,7 @@
     <footer class="w-100 bg-dark text-light">
       <div class="container-fluid">
         <div class="row">
-          <div class="col d-flex text-light">made with by Moe</div>
+          <div class="col d-flex text-light">made with by Haru</div>
           <div class="col d-flex justify-content-end">
               <a href="https://twitter.com/home?lang=ja" class="icon-right text-light"><font-awesome-icon :icon="['fab', 'twitter-square']" /></a>
               <a href="https://www.facebook.com/haru0901" class="icon-right text-light"><font-awesome-icon :icon="['fab', 'facebook-square']" /></a>  
